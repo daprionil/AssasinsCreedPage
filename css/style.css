@@ -20,6 +20,14 @@
     }
     /*--------------------------------------HEADER-------------------------*/
     
+    header {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0px;
+        z-index: 100;
+        box-shadow: 0 5px 0 rgb(255, 0, 0);
+    }
+    
     .logo_header {
         width: 145px;
         padding: 25px;
@@ -107,6 +115,20 @@
         padding: 30px;
         background-color: black;
         color: white;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 100px;
+        z-index: 99;
+    }
+    
+    .contenido_sticky {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        text-align: center;
+        font-weight: 500;
     }
     
     h1.titulo_content {
@@ -176,7 +198,6 @@
         box-shadow: -2px 0px 0px 0px rgb(255, 0, 0);
         padding: 10px;
         color: white;
-        display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
